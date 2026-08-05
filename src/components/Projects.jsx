@@ -7,8 +7,9 @@ const Projects = () => {
       title: "Ettihad Foundation Management Platform",
       description: "A comprehensive, secure web platform built for the Ettihad Foundation. Features a dynamic admin dashboard for project management, cloud-based image uploads, and a public-facing interface for donor engagement. Secured with role-based access control.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Tailwind CSS"],
+      // Yahan apne asli links dalein
       githubLink: "#",
-      liveLink: "#"
+      liveLink: "https://ettihad-foundation-live-link.vercel.app"
     },
     {
       id: 2,
@@ -52,10 +53,16 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-6 mt-auto">
-                  <a href={project.githubLink} className="text-gray-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-1">
+                  <a href={project.githubLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-1">
                     Code &rarr;
                   </a>
-                  <a href={project.liveLink} className="text-gray-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-1">
+                  <a href={project.liveLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-1">
                     Live Demo &rarr;
                   </a>
                 </div>
