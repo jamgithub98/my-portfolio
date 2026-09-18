@@ -8,7 +8,7 @@ const Projects = () => {
     description: "A comprehensive retail management platform featuring AI-driven insights, seamless QR code scanning capabilities, and interactive data visualization. Engineered with a responsive UI and secure backend services to streamline and optimize daily shop operations.",
     techStack: ["React.js", "Vite", "Express.js", "Firebase", "Tailwind CSS", "TypeScript", "Recharts", "Google GenAI"],
     // Yahan apne asli links dalein 👇
-    githubLink: "https://github.com/jamgithub98@/smart-dukaan-app",
+    githubLink:"#" /*"https://github.com/jamgithub98@/smart-dukaan-app"*/,
     liveLink: "https://smartdukaanjm.netlify.app"
     }
 
