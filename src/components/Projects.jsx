@@ -10,7 +10,7 @@ const Projects = () => {
     // Yahan apne asli links dalein 👇
     githubLink:"#" /*"https://github.com/jamgithub98@/smart-dukaan-app"*/,
     liveLink: "https://smartdukaanjm.netlify.app"
-    }
+    },
 
     {
       id: ,
