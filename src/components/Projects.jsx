@@ -2,17 +2,27 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
+        {
+    id: 1,
+    title: "Smart Dukaan App",
+    description: "A comprehensive retail management platform featuring AI-driven insights, seamless QR code scanning capabilities, and interactive data visualization. Engineered with a responsive UI and secure backend services to streamline and optimize daily shop operations.",
+    techStack: ["React.js", "Vite", "Express.js", "Firebase", "Tailwind CSS", "TypeScript", "Recharts", "Google GenAI"],
+    // Yahan apne asli links dalein 👇
+    githubLink: "https://github.com/jamgithub98@/smart-dukaan-app",
+    liveLink: "https://smartdukaanjm.netlify.app"
+    }
+
     {
-      id: 1,
+      id: ,
       title: "Ettihad Foundation Management Platform",
       description: "A comprehensive, secure web platform built for the Ettihad Foundation. Features a dynamic admin dashboard for project management, cloud-based image uploads, and a public-facing interface for donor engagement. Secured with role-based access control.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Tailwind CSS"],
       // Yahan apne asli links dalein
       githubLink: "#",
-      liveLink:"#"      /*"https://ettihad-foundation-live-link.vercel.app"*/
+      liveLink:"https://ettihad-foundation-live-link.vercel.app"
     },
     {
-      id: 2,
+      id: 3,
       title: "OPD & Doctor Prescription System",
       description: "A healthcare management application featuring role-based access control for Admins, Doctors, and Receptionists. Streamlines patient registration, appointment scheduling, medicine inventory, and generates printable digital prescriptions.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth"],
@@ -20,7 +30,7 @@ const Projects = () => {
       liveLink: "#"
     },
     {
-      id: 3,
+      id: 4,
       title: "Fraud Detection Using Machine Learning",
       description: "An analytical machine learning model designed to accurately classify and detect fraudulent financial transactions, showcasing a strong understanding of data processing and algorithmic problem-solving.",
       techStack: ["Machine Learning", "Data Analysis", "Classification Models"],
