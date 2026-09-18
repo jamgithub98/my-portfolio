@@ -13,7 +13,7 @@ const Projects = () => {
     },
 
     {
-      id: ,
+      id: 2,
       title: "Ettihad Foundation Management Platform",
       description: "A comprehensive, secure web platform built for the Ettihad Foundation. Features a dynamic admin dashboard for project management, cloud-based image uploads, and a public-facing interface for donor engagement. Secured with role-based access control.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Tailwind CSS"],
