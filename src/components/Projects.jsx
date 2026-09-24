@@ -19,7 +19,7 @@ const Projects = () => {
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Tailwind CSS"],
       // Yahan apne asli links dalein
       githubLink: "#",
-      liveLink:"https://ettihad-foundation-live-link.vercel.app"
+      liveLink:"https://ettihadfoundation.vercel.app"
     },
     {
       id: 3,
