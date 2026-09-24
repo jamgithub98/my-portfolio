@@ -67,7 +67,7 @@ const Projects = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-blue-600 font-bold text-sm transition flex items-center gap-1">
-                    Code &rarr;
+                    Code [coming soon] &rarr;
                   </a>
                   <a href={project.liveLink} 
                   target="_blank" 
