@@ -5,7 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 // 1. Apni image import karein (path check kar lein)
-import myPhoto from './assets/my-image.jpg' 
+import myPhoto from './assets/my-image.png' 
 
 function App() {
   return (
